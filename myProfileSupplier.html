@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile Supplier</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/myProfileSupplier.js"></script>
+</head>
+<body>
+	<div class="header">
+		<img class="left_header" src="images/LogoNeko2InoSinFondo.png" height="225" width="159">
+		<p class="title1">Neko<span class="title2">2</span>Ino</p>
+		<div class="right_header">
+			<button id="myProfile_button">My Profile</button>
+			<br>
+			<button id="cart_button"><img src="images/cart.png" height="51" width="51"></button>
+		</div>
+	</div>
+
+	<div class="body_myProfileSupplier">
+		<p class="title">My Profile (Supplier): </p>
+		
+		<p class="subtitle">  Product Management</p>
+		<table id="product_management">
+			<tr>
+				<th>id</th>
+				<th>Picture</th>
+				<th>Product Name</th>
+				<th>Unit Price</th>
+				<th>Availability</th>
+			</tr>
+			<tr>
+			    <td>1</td>
+			    <td><img src="images/dogfood.png"></td>
+			    <td>Dog Food</td>
+			    <td>$20.99</td>
+			    <td>3</td>
+		  	</tr>
+		</table>
+		<div class="right_addProduct">
+			<button id="addProduct">Add Products</button>
+		</div>
+		
+		<p class="subtitle">  Product Management</p>
+		<table id="product_management">
+			<tr>
+				<th>Order Id</th>
+				<th>Order Date</th>
+				<th>Products</th>
+				<th>Quantity</th>
+				<th>Buyer <br> Username</th>
+				<th>Buyer <br> Phone</th>
+				<th>Buyer <br> Address</th>
+				<th>Cost</th>
+				<th>Status</th>
+			</tr>
+			<tr>
+			    <td>1</td>
+			    <td>21/02/2017</td>
+			    <td>Dog Food, Bone, Bed</td>
+			    <td>2, 2, 1</td>
+			    <td>oscaruriel97</td>
+			    <td>81236432</td>
+			    <td>Col. Real Cumbres, Calle Cerezo #613</td>
+			    <td>$149.25</td>
+			    <td>Paid</td>
+		  	</tr>
+		</table>
+		
+
+		<p class="subtitle">  Buyers Management</p>
+		<table id="product_management">
+			<tr>
+				<th>Username</th>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Address</th>
+				<th>Post Code</th>
+				<th>City</th>
+				<th>Province</th>
+				<th>Phone</th>
+			</tr>
+			<tr>
+			    <td>oscaruriel97</td>
+			    <td>Oscar Uriel</td>
+			    <td>oscaruriel_97@hotmail.com</td>
+			    <td>Col. Real Cumbres, Calle Cerezo #613</td>
+			    <td>38020</td>
+			    <td>Nuevo Leon</td>
+			    <td>Monterrey</td>
+			    <td>81236432</td>
+		  	</tr>
+		</table>
+		<div class="right_addProduct">
+			<button id="LogOut">Log Out</button>
+			<button id="catalog">Catalog</button>
+		</div>
+	</div>
+
+
+</body>
+</html>

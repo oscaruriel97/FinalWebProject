@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cart</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/cart.js"></script>
+</head>
+<body>
+	<div class="header">
+		<img class="left_header" src="images/LogoNeko2InoSinFondo.png" height="225" width="159">
+		<p class="title1">Neko<span class="title2">2</span>Ino</p>
+		<div class="right_header">
+			<button id="myProfile_button">My Profile</button>
+			<br>
+			<button id="cart_button"><img src="images/cart.png" height="51" width="51"></button>
+		</div>
+	</div>
+
+	<div class="body_cart">
+		<p class="title">Cart:</p>
+		<table>
+			<tr>
+				<th>Picture</th>
+				<th>Product Name</th>
+				<th>Unit Price</th>
+				<th>Quantity</th>
+				<th>Total Price</th>
+				<th>Delete</th>
+			</tr>
+			<tr>
+			    <td><img src="images/dogfood.png"></td>
+			    <td>Dog Food</td>
+			    <td>$20.99</td>
+			    <td>1</td>
+			    <td>$20.99</td>
+			    <td><input type="checkbox"></td>
+		  	</tr>
+			<tr>
+			    <td><img src="images/pethouse.png"></td>
+			    <td>Pet House</td>
+			    <td>$25.99</td>
+			    <td>2</td>
+			    <td>$51.98</td>
+			    <td><input type="checkbox"></td>
+			</tr>
+			<tr>
+				<td></td>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+				<td>Total</td>
+				<td>$21.99</td>
+			</tr>
+		</table>
+		<div class="right_cart">
+			<button id="placeOrder">Place Order</button>
+			<button id="deleteCart">Delete</button>
+			<button id="catalog">Catalog</button>
+		</div>
+				
+	</div>
+
+
+</body>
+</html>
